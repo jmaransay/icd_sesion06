@@ -3,7 +3,7 @@
 # Instalamos jdk11
 
 apt-get update
-apt-get -y install openjdk-11-jre
+apt-get -y install openjdk-17-jre
 
 #  Descargamos la clave pública del repositorio y la almacenamos
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc
